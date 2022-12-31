@@ -9,6 +9,7 @@ Full details can be found in the **emails_scrape.ipynb** file. Below we summaris
   - Be called 'websites.csv' 
   - Have a column called 'website' that contains a single website url per row. This defines the websites that will be scraped for email addresses.
   - It can have other columns e.g. for metadata. These will be ignored by the script and will not prevent it from working. 
-2. Open the **emails_scrape.ipynb** file (e.g. in jupyter lab or as a standalone jupyter notebook or with any other IDE / tool).
-3. Run all cells of the notebook. The notebook handles commonly encountered errors when using chromedriver / selenium and will handle and log any unexpected errors. The log is displayed in the notebook after the scraping has completed. 
-4. If the scraping is successful, the scraped email addresses are cleaned and saved to a csv file. The email addresses are stored as semi colon separated strings e.g. 'joe@email.com;andy@email.com'.    
+2. Create virtual environment from requirements.txt file and create jupyter kernel from it. 
+3. Open the **emails_scrape.ipynb** file (e.g. in jupyter lab or as a standalone jupyter notebook or with any other IDE / tool).
+4. Run all cells of the notebook using the jupyter kernel. The notebook handles commonly encountered errors when using chromedriver / selenium and will handle and log any unexpected errors. The log is displayed in the notebook after the scraping has completed. 
+5. If the scraping is successful, the scraped email addresses are cleaned and saved to a csv file. The email addresses are stored as semi colon separated strings e.g. 'joe@email.com;andy@email.com'.    
